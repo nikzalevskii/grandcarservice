@@ -40,5 +40,37 @@ export const brands = [
   {
     name: 'Ford',
     logo: '/images/brands/ford.svg'
+  },
+  {
+    name: 'Maserati',
+    logo: '/images/brands/maserati.svg'
+  },
+  {
+    name: 'Volkswagen',
+    logo: '/images/brands/volkswagen.svg'
+  },
+  {
+    name: 'Toyota',
+    logo: '/images/brands/toyota.svg'
+  },
+  {
+    name: 'Volvo',
+    logo: '/images/brands/volvo.svg'
+  },
+  {
+    name: 'Geely',
+    logo: '/images/brands/geely.svg'
+  },
+  {
+    name: 'Jaguar',
+    logo: '/images/brands/jaguar.svg'
+  },
+  {
+    name: 'Infiniti',
+    logo: '/images/brands/infiniti.svg'
+  },
+  {
+    name: 'Cadillac',
+    logo: '/images/brands/cadillac.svg'
   }
 ]

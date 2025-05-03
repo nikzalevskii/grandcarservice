@@ -15,24 +15,24 @@ export default function HeroSection() {
       </div>
 
       <div className="container relative mx-auto px-4 z-10 py-20">
-        <div className="max-w-2xl mx-auto md:mx-0 glass-effect p-8 md:p-12 rounded-xl">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 animated-float">
+        <div className="max-w-2xl mx-auto md:mx-0 glass-effect p-6 md:p-12 rounded-xl">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 animated-float break-words">
             {company.name}
           </h1>
-          <p className="text-lg md:text-xl text-white/90 mb-8 fade-in">
+          <p className="text-sm sm:text-lg md:text-xl text-white/90 mb-8 fade-in">
             Премиальный автосервис для вашего автомобиля. Профессиональное обслуживание и ремонт
             автомобилей премиум-класса.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="#services"
-              className="btn bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-4 rounded-lg font-semibold text-center hover:-translate-y-1 transition-all duration-300 shadow-lg hover:shadow-2xl"
+              className="btn bg-white/20 hover:bg-accent/90 text-white/95 px-5 sm:px-8 py-2 sm:py-4 rounded-lg font-semibold text-center hover:-translate-y-1 transition-all duration-300 shadow-lg hover:shadow-2xl"
             >
               Наши услуги
             </a>
             <a
               href="#contact"
-              className="btn bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-8 py-4 rounded-lg font-semibold text-center border border-white/30 hover:-translate-y-1 transition-all duration-300 shadow-lg hover:shadow-2xl"
+              className="btn bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-5 sm:px-8 py-2 sm:py-4 rounded-lg font-semibold text-center border border-white/30 hover:-translate-y-1 transition-all duration-300 shadow-lg hover:shadow-2xl"
             >
               Связаться с нами
             </a>

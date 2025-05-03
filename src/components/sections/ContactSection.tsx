@@ -5,17 +5,17 @@ export default function ContactSection() {
     <>
       <div className="section-divider"></div>
       <section id="contact" className="py-20 bg-secondary">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 max-w-5xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold mb-4 animated-float">Связаться с нами</h2>
             <div className="w-24 h-1 bg-accent mx-auto mb-6"></div>
-            <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
+            <p className="text-lg text-gray-700 max-w-2xl mx-auto">
               Свяжитесь с нами для записи на обслуживание или получения консультации по вашему
               автомобилю
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
             <div className="bg-background p-8 rounded-lg shadow-lg">
               <h3 className="text-xl font-bold mb-6 flex items-center">
                 <div className="w-6 h-1 bg-accent mr-3"></div>
@@ -43,7 +43,7 @@ export default function ContactSection() {
                     <p className="font-semibold text-accent">Телефон:</p>
                     <a
                       href={`tel:${company.phone}`}
-                      className="text-foreground/70 hover:text-accent transition-colors block mt-1 text-lg"
+                      className="text-gray-700 hover:text-accent transition-colors block mt-1 text-lg"
                     >
                       {company.phone}
                     </a>
@@ -71,7 +71,7 @@ export default function ContactSection() {
                     <p className="font-semibold text-accent">Email:</p>
                     <a
                       href={`mailto:${company.email}`}
-                      className="text-foreground/70 hover:text-accent transition-colors block mt-1 text-lg"
+                      className="text-gray-700 hover:text-accent transition-colors block mt-1 text-lg"
                     >
                       {company.email}
                     </a>
@@ -97,7 +97,7 @@ export default function ContactSection() {
                   </div>
                   <div className="flex-1">
                     <p className="font-semibold text-accent">Адрес:</p>
-                    <p className="text-foreground/70 mt-1 text-lg">{company.address}</p>
+                    <p className="text-gray-700 mt-1 text-lg">{company.address}</p>
                   </div>
                 </div>
                 <div className="flex items-start group">
@@ -120,9 +120,9 @@ export default function ContactSection() {
                   </div>
                   <div className="flex-1">
                     <p className="font-semibold text-accent">Часы работы:</p>
-                    <p className="text-foreground/70 mt-1">Пн-Пт: 9:00 - 20:00</p>
-                    <p className="text-foreground/70">Сб: 10:00 - 18:00</p>
-                    <p className="text-foreground/70">Вс: Выходной</p>
+                    <p className="text-gray-700 mt-1">Пн-Пт: 9:00 - 20:00</p>
+                    <p className="text-gray-700">Сб: 10:00 - 18:00</p>
+                    <p className="text-gray-700">Вс: Выходной</p>
                   </div>
                 </div>
               </div>
