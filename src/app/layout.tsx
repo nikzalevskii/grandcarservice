@@ -14,7 +14,15 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: 'GrandCarService - Премиальный сервис автомобилей',
-  description: 'Профессиональный сервис и ремонт премиальных автомобилей'
+  description: 'Профессиональный сервис и ремонт премиальных автомобилей',
+  openGraph: {
+    title: 'GrandCarService - Премиальный сервис автомобилей',
+    description: 'Профессиональный сервис и ремонт премиальных автомобилей',
+    url: 'https://grandcarservice.vercel.app/',
+    siteName: 'GrandCarService',
+    locale: 'ru_RU',
+    type: 'website'
+  }
 }
 
 export default function RootLayout({
