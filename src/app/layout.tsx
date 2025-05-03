@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'AutoTOP - Премиальный сервис автомобилей',
+  title: 'GrandCarService - Премиальный сервис автомобилей',
   description: 'Профессиональный сервис и ремонт премиальных автомобилей'
 }
 
