@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import { company } from '@/utils/constants'
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false)
@@ -53,7 +54,7 @@ export default function Header() {
                 <path d="M20 6l-9 9-4-4" />
                 <circle cx="12" cy="12" r="10" />
               </svg>
-              <span className="text-3xl font-bold text-primary">AutoElite</span>
+              <span className="text-3xl font-bold text-primary">{company.name}</span>
             </Link>
           </div>
 
