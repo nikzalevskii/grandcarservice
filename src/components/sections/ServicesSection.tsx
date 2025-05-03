@@ -1,5 +1,3 @@
-import { services } from '@/utils/constants'
-
 export default function ServicesSection() {
   return (
     <>
